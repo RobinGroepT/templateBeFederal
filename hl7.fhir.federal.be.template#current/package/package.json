@@ -1,0 +1,11 @@
+{
+  "name": "hl7.fhir.template",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "FHIR Test Template",
+  "author": "http://hl7.org/fhir",
+  "canonical": "http://github.com/FHIR/hl7-ig-template",
+  "date": "20190913155134",
+  "original-version": "0.0.2",
+  "version": "current"
+}
