@@ -44,8 +44,8 @@
           <xsl:for-each select="parent::f:definition/f:resource[f:groupingId/@value=current()/@id]">
             <tr>
               <td style="column-width:30%">
-                <a href="{f:extension[@url='http://hl7.org/fhir/StructureDefinition/implementationguide-page']/f:valueUri/@value}" title="{f:reference/f:reference/@value}">
-                  <xsl:text>&#160;&#160;&#x2022;&#160;&#160;</xsl:text>
+				<xsl:text>&#160;&#160;&#x2022;&#160;&#160;</xsl:text>
+                <a href="{f:extension[@url='http://hl7.org/fhir/StructureDefinition/implementationguide-page']/f:valueUri/@value}" title="{f:reference/f:reference/@value}"> 
                   <xsl:choose>
                     <xsl:when test="f:name">
                       <xsl:value-of select="f:name/@value"/>
